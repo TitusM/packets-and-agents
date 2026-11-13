@@ -155,7 +155,14 @@ The evaluator should not rely on the agent's own claim that everything worked. I
 
 And it should run scenarios more than once. A single polished demo is a starting point, not a reliability measurement.
 
-Reading about agents quickly raises four families of risk. **Reliability:** the model can hallucinate, lose context, or give different answers to the same question. **Security:** the access that makes an agent useful also creates attack surface, including prompt injection and misused credentials. **Governance:** if an agent causes an outage, "the AI decided" is not an acceptable explanation, so we need records of what it did and why. **Operational:** token costs, latency, and ongoing maintenance add up, especially if an agent gets stuck in a retry loop. We will return to each of these later in the series.
+Reading about agents quickly raises four families of risk:
+
+- **Reliability:** the model can hallucinate, lose context, or give different answers to the same question.
+- **Security:** the access that makes an agent useful also creates attack surface, including prompt injection and misused credentials.
+- **Governance:** if an agent causes an outage, "the AI decided" is not an acceptable explanation, so we need records of what it did and why.
+- **Operational:** token costs, latency, and ongoing maintenance add up, especially if an agent gets stuck in a retry loop.
+
+We will return to each of these later in the series.
 
 None of this is an argument against agents. Faster response, scalability, and consistent operations are potential benefits, and the purpose of controls, risk awareness, and testing is to earn them safely.
 
