@@ -1,0 +1,6 @@
+.DS_Store
+Screenshot*
+*.zip
+__pycache__/
+*.bak
+backup*/
